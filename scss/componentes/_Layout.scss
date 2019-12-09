@@ -1,0 +1,11 @@
+section {
+    @include max-width;
+    background-color: $color-beige;
+    @include respond-to (800px) {
+        background-color: $lightcolor;
+    }
+}
+
+// .max-width-huge {
+//     @include max-width(1200px);
+// }

@@ -1,0 +1,17 @@
+.singer__container {
+    margin: $space-small;
+    
+}
+.singer {
+    text-align: center;
+    &__color--dark{
+        @extend .singer;
+        background-color: $darkcolor;
+    }
+    &__color--light{
+        @extend .singer;
+        background-color: $lightcolor;
+    }
+}
+
+

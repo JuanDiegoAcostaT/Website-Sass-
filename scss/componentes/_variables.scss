@@ -1,0 +1,54 @@
+// BODY
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+// COLORS
+
+
+//MAIN
+$color-primary: #BFFF8F;
+$darkcolor: #608047;
+$lightcolor: #EBFFDB;
+$white: #ffffff;
+$black: #000000;
+$grey: grey;
+$lightgrey: lighten($grey, 25%);
+$darkgrey: darken($grey, 25%);
+$color-beige: beige;
+
+//SADOW
+$shadow: 0px 10px 35px 0px rgba(0,0,0,0.75);
+
+//SPECIALS
+$color-alert: orange;
+$color-error: red;
+$color-invert: invert($color-error);
+$color-info: #00100101;
+$color-succes:#5FFF40;
+
+//BUTTONS
+$button-color: $white;
+$buttonbackgroundcolor: $darkcolor;
+
+
+
+// SIZE
+$space-small: 20px;
+$space-medium: 40px;
+
+//FONTS
+$font-x-small: map-get($fs,x-small);
+$font-small: 15px;
+$font-medium: 20px;
+$font-big: 25px;
+
+//Typography
+$base-font: 'Raleway', sans-serif;
+$basefontsize: 16px;
+
+//CONSTANTLY
+$border-radius: 3px;

@@ -1,0 +1,24 @@
+.btn{
+    display: inline-block;
+	padding: $space-small;
+	background-color: $buttonbackgroundcolor;
+    color: $button-color;
+    line-height: 2.5px;
+    border-radius: $border-radius;
+    border: none;
+    cursor: pointer;
+    font-size: $font-small * 1.5; // * 1px
+    animation-duration: 2s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+    .btn__icon{
+        font-size: $font-medium;
+    }
+
+    .btn--info {
+        background: $color-info;
+    }

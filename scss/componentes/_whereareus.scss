@@ -1,0 +1,30 @@
+.where__container {
+    margin: $space-medium;
+}
+
+.where__container h2{
+    padding: $space-small;
+    text-align: center;
+}
+
+
+
+.where {
+    text-align: center;
+    p{
+        position: absolute;
+        z-index: map-get($zi, zindex-text);
+       font-size: $font-big;
+       padding-left: 300px;
+       @include respond-to (800px){
+           padding-left: 100px;
+       }
+
+    }
+    img{
+        position: relative;
+        z-index: map-get($zi, zindex-images );
+        padding-bottom: $space-small;
+        opacity: 0.8;
+    }
+}

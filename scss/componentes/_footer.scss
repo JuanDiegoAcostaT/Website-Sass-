@@ -1,0 +1,12 @@
+.footer{
+    padding: $space-small;
+    background-color: $darkcolor;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer li{
+    list-style: none;
+    color: $white;
+    font-size: $font_small;
+}

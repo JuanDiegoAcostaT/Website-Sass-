@@ -1,0 +1,19 @@
+.comments__container h1{
+    padding-left: $space-medium * 10.5;
+    color: $darkcolor;
+    padding-top: $space-medium;
+    @include respond-to (800px){
+        padding-left: $space-medium  * 7.5;
+        padding-top: $space-medium;
+    }
+}
+
+
+.comments{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comment {
+    text-align: center;
+}

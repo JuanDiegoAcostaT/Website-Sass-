@@ -1,0 +1,35 @@
+.header{
+	background-color: $color-primary;
+	display: flex;
+	justify-content: space-between;
+	&__logo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: $space-medium;
+	}
+
+}
+
+
+
+.header ul{
+	display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	@include respond-to (800px){
+		padding-left: $space-medium * 4;
+	}
+}
+
+.header ul li{
+	padding-right: $space-medium;
+	text-decoration: none;
+	list-style: none;
+	color: $black;
+	font-size: $font_small;
+	@include respond-to (800px){
+		padding-right: $space-medium * 0.5;
+	}
+}
+
