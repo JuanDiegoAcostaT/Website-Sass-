@@ -2,7 +2,7 @@
 
 Sass Example Basic
 
-<img src="https://i.imgur.com/NjCk8ad.png">
+<img src="https://i.imgur.com/NjCk8ad.png" />
 
 -Sass
 
@@ -12,7 +12,7 @@ Sass Example Basic
 
 -Gulp
 
-<img src="https://i.imgur.com/vP36GbE.png">
+<img src="https://i.imgur.com/vP36GbE.png" />
 
 
 
