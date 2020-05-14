@@ -12,7 +12,6 @@ Sass Example Basic
 
 -Gulp
 
-<img src="https://i.imgur.com/vP36GbE.png" />
 
 
 
