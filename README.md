@@ -4,13 +4,13 @@ Sass Example Basic
 
 <img src="https://i.imgur.com/NjCk8ad.png" />
 
--Sass
+- Sass
 
--Css
+- Css
 
--Html
+- Html
 
--Gulp
+- Gulp
 
 
 
